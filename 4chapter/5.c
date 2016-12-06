@@ -9,7 +9,15 @@
 */
 int main()
 {
+	float speed;
+	float file;
 
+	printf("input speed\n");
+	scanf("%f",&speed);
+	printf("input file size\n");
+	scanf("%f",&file);
+
+	printf("At %.2f megabytes per second,a file of %f megabytes downloads in %.2f seconds.\n", speed,file,(file*8)/speed);
 
 	return 0;
 }
