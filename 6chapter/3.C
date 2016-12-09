@@ -1,0 +1,8 @@
+/*输出：
+F
+FE
+FED
+FEDC
+FEDCB
+FEDCBA
+*/
