@@ -1,10 +1,17 @@
 /*
-要求用户输入浮点数，并打印两数之差除以两数乘积的结果。在用户输入非数字之前，程序应循环处理用户输入的每队值
+编写一个程序吧一个单词读入一个字符数组中，然后倒叙打印这个单词。提示：strlen()
 */
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-	double n1,n2;
-	printf("%d\n", n1-n2);
-    return 0;
+	char n[20];
+	int n_len;
+	printf("input a word\n");
+	gets(n);
+	n_len = strlen(n);
+	for (int j = n_len;j>0;j--){
+		printf("%c",n[j-1] );
+	}
+	return 0;
 }

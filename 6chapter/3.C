@@ -1,3 +1,4 @@
+#include<stdio.h>
 /*输出：
 F
 FE
@@ -6,7 +7,6 @@ FEDC
 FEDCB
 FEDCBA
 */
-#include<stdio.h>
 int main()
 {
     for (int i=0;i < 6;i++)//输出6行
