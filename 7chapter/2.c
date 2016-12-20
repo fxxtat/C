@@ -6,22 +6,19 @@
 int main()
 {
 
-	char ch[8];
 	char ch1;
 	int num = 0;
 
 	printf("input char:\n");
 	while ((ch1 = getchar()) != '#')
-	{	
-		for (int i=0;i<8;i++)
+	{
+		printf("%d ", ch1);
+		num++;
+		if (num == 8)
 		{
-			ch[i] = ch1;
-		}
-		for (int j=0;j<8;j++)
-		{
-			printf("%d ",ch[j] );
+			printf("\n");
+			num=0;
 		}
 	}
-
 	return 0;
 }
