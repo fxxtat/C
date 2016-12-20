@@ -22,7 +22,7 @@ int main()
 		}
 	putchar(ch);
 	}
-	printf("***********%d\n", change_count);
+	printf("***********%d\n", change_count );
 
 	return 0;
 }
